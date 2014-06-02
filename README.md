@@ -21,6 +21,10 @@ Usando ipython:
 
     ipython notebook --pylab inline
 
+Para atualizar os HTMLs:
+
+    ipython nbconvert lista*.ipynb
+
 ## Requisitos:
 
 Além do básico (numpy, etc), tive que fazer adaptações das bibliotecas usadas pelo AdessoWiki:
